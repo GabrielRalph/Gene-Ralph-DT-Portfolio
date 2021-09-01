@@ -22,6 +22,13 @@
 
     <h1>IDENTIFICATION AND EXPLORATION OF THE NEED</h1>
 
+    <div class = "section">
+      <h2>Keys</h2>
+      <div class = "col">
+        <h4 class = "key1">Important</h4>
+        <h4 class = "key1">Information</h4>
+      </div>
+    </div>
 
 
     <div class = "section">
@@ -37,7 +44,6 @@
         Identification of the Need
       </p>
     </div>
-
 
     <div class = "section ccgs">
         <div class = "col">
@@ -64,15 +70,12 @@
       </p>
     </div>
 
-
-
     <div class = "section">
       <h2>Impacts of Limited Sports on Individuals</h2>
       <p class = "text-box">
         impacts limit
       </p>
     </div>
-
 
     <div class = "section">
       <h2>Stated Health Benefits from Regular Physical Activity</h2>
@@ -89,14 +92,12 @@
       </p>
     </div>
 
-
     <div class = "section">
       <h2>Claimed Physical Activity Restrictions</h2>
       <p class = "text-box">
         claimed
       </p>
     </div>
-
 
     <div class = "section ong">
       <h2>Ongoing Evaluation</h2>
@@ -105,13 +106,43 @@
       </p>
     </div>
 
-
     <div class = "section">
       <h2>Applications of conclusions to MDP</h2>
       <p class = "text-box">
         Applications of conclusions to MDP
       </p>
     </div>
+
+    <div class = "section survay">
+      <h2>Survey Analysis</h2>
+      <h3>Conclusions deducted from a survey of 33 visually imapred individuals</h3>
+      <img src="./Resources/Images/chart1.png" />
+      <table name="survay res1"></table>
+      <img src="./Resources/Images/chart2.png" />
+      <table name="survay res2"></table>
+      <img src="./Resources/Images/chart4.png" />
+      <img src="./Resources/Images/chart3.png" />
+      <table name="survay res3"></table>
+      <img src="./Resources/Images/chart5.png" />
+      <img src="./Resources/Images/chart6.png" />
+      <table name="survay res4"></table>
+      <img src="./Resources/Images/chart7.png" />
+      <table name="survay res5"></table>
+    </div>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong2
+      </p>
+    </div>
+
+    <h1>AREAS OF INVESTIGATION</h1>
+    <p class = "text-box note">
+      areas of investigation note
+    </p>
+
+    <table name="aoi t2"></table>
 
 
   </div>
@@ -134,9 +165,19 @@
       margin: 5em auto;
     }
 
-
+    p {
+      margin-bottom: 0;
+    }
     h1{
       text-align: center;
+    }
+    h4 {
+      margin: 0;
+      display: inline-block;
+    }
+
+    .key1 {
+      color: green;
     }
 
 
@@ -169,7 +210,10 @@
       border-left: 1px solid black;
     }
 
-
+    .survay table {
+      margin-top: 1.5em;
+      margin-bottom: 3em;
+    }
 
 
     /* tbody tr td:first-of-type{
@@ -261,6 +305,7 @@
       .section {break-inside: avoid;}
       table {break-inside: avoid;}
       .title-page {page-break-after: always;}
+      h1 {page-break-before: always;}
     }
 
   </style>

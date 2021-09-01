@@ -12,7 +12,8 @@ async function getText(url){
 
 async function loadText(textBox, name, folder_name){
   let text = await getText(folder_name + name + ".txt");
-  text = text.replace(/\n/g, "<br />");
+  text = text.replace(/\n$/, "<br /><br />");
+  text = text.replace(/\n/g, "<br /><br />");
   if (text != null) {
     textBox.innerHTML = text;
   } else {
@@ -39,7 +40,9 @@ function stringToCSVArray(string){
     let row = line.split(/(?!\B"[^"]*),(?![^"]*"\B)/g);
     let nrow = [];
     for (let el of row) {
-      nrow.push(el.replace(/(^")|("$)/g, ""));
+      el = el.replace(/^\n/g, "");
+      el = el.replace(/\n/g, "<br /><br />");
+      nrow.push(el.replace(/"/g, ""));
     }
     if (nrow.length > cols) cols = nrow.length;
     csv.push(nrow);
@@ -52,7 +55,6 @@ async function loadCSV(filepath) {
   let text = await getText(filepath);
   let csv = {csv: [], cols: 0};
   if (text != null) {
-    console.log(text);
     csv = stringToCSVArray(text);
   }
   return csv;
@@ -102,7 +104,7 @@ function loadTables(folder) {
   let tables = document.getElementsByTagName("TABLE");
   // console.log(tables);
   for (let table of tables) {
-    console.log(table);
+    // console.log(table);
     let name = table.getAttribute("name");
     name = name.replace(/^\s*/, "");
     name = name.replace(/\s*$/, "");
