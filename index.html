@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script> -->
+  </head>
+  <body>
+    <div id = "portfolio">
+
+    <!-- <div class="footer">
+      <div class = "desc">Student Number</div>
+      <div class = "page-number"></div>
+    </div> -->
+
+
+    <div class = "title-page">
+      <h1>Student Number</h1>
+      <h2>Title of Project</h2>
+    </div>
+
+    <div class = "text-box note">
+      covid note
+    </div>
+
+    <div class = "section">
+      <h2>Introduction</h2>
+      <p class = "text-box">
+        introduction test
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Design Brief</h2>
+      <p class = "text-box">
+        Design Brief
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Identification of the Need</h2>
+      <p class = "text-box">
+        Identification of the Need
+      </p>
+    </div>
+
+
+    <div class = "section ccgs">
+        <div class = "col">
+          <div class = "row">
+            <img class = "flex-image" src = "http://www.timetoclimb.com/wp-content/uploads/2018/03/Nina-Williams-on-the-Kilter-Board.jpg" />
+            <img class = "flex-image" src = "http://cdn.shopify.com/s/files/1/1554/2851/articles/holds-for-kids_600x.jpg?v=1573838124" />
+          </div>
+          <div class = "row">
+            <img width = "291.6" src = "https://cdn.broadsheet.com.au/cache/8f/8e/8f8eb1475352647b2aa528d73dbf3d63.jpg" />
+            <div class = "p-left p-top">
+              <h2>Current Climbing Gym Setting</h2>
+              <div  class = "text-box">
+                Current Climbing Gym Setting
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<!--
+    <table>
+      <thead>
+        <td colspan = "2">
+          identif
+        </td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>this</td><td>that</td>
+        </tr>
+        <tr>
+          <td>this</td><td>that</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan = "2">
+          sdfhkjsfj
+        </td>
+      </tfoot>
+
+    </table> -->
+
+    <table name = "test">
+    </table>
+
+
+  </div>
+  </body>
+
+  <script type = "module">
+    import {loadTextBoxes, loadTables} from "./importer.js";
+    loadTextBoxes("./Resources/textBoxes/");
+    loadTables("./Resources/Tables/");
+
+  </script>
+
+  <style>
+
+    body{
+      --w: min(297mm, 90vw);
+      width: var(--w);
+      font-size:5mm;
+      font-family: "Supreme LL TT";
+      margin: 5em auto;
+    }
+
+
+
+
+
+    h2 {
+      margin: 0;
+      margin-bottom: calc(var(--w)*0.01);
+
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table tr:first-of-type{
+      font-weight: 600;
+    }
+    td {
+      padding: 0.5em;
+      vertical-align: top;
+    }
+    table tr:nth-of-type(n+2) td{
+      border-top: 1px solid black;
+    }
+    tr td:nth-of-type(n+2){
+      border-left: 1px solid black;
+    }
+
+
+
+
+    /* tbody tr td:first-of-type{
+      background: yellow;
+    }
+
+    tbody tr td:last-of-type{
+      background: red;
+    }
+
+    thead tr td {
+      background: green;
+    }
+
+    tfoot td {
+      background: orange;
+    } */
+
+    .title-page {
+      padding-bottom: 10em;
+      /* height: var(--w); */
+    }
+
+    .note {
+      font-style: italic;
+      opacity: 0.6;
+      font-size: 0.8em;
+      margin-bottom: 5em;
+    }
+
+    .section {
+      padding-bottom: 2em;
+    }
+
+    .p-left {
+      padding-left: calc(var(--w) * 0.015) ;
+    }
+    .p-top {
+      padding-top: calc(var(--w) * 0.015) ;
+    }
+    .p-bottom {
+      padding-bottom: calc(var(--w) * 0.015) ;
+    }
+    .p-right {
+      padding-left: calc(var(--w) * 0.015) ;
+    }
+
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-content: space-between;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      align-content: space-between;
+    }
+
+
+    .ccgs .flex-image{
+      height: 77mm;
+    }
+
+    .cs2 {
+      text-align: center;
+      font-weight: 600;
+    }
+
+
+    .footer {
+    }
+
+    @page {
+      size: A3;
+      margin: 20mm;
+      @bottom-left {
+        content: "hey";
+      }
+    }
+
+    @media print {
+      body {
+        width: 297mm;
+        margin: 0;
+        font-size: 12px;
+      }
+      .section {break-inside: avoid;}
+      table {break-inside: avoid;}
+      .title-page {page-break-after: always;}
+    }
+
+  </style>
+
+
+</html>
