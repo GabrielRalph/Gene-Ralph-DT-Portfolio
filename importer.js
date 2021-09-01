@@ -33,16 +33,28 @@ function loadTextBoxes(folder){
 }
 
 function stringToCSVArray(string){
-  let lines = string.split(/\r/);
+  let paras = {};
+  let pi = 0;
+  string = string.replace(/"([^"]*)"/g, (a, b) => {
+    let pname = "parra-" + pi;
+    pi++;
+    paras[pname] = b;
+    return pname;
+  })
+  let lines = string.split(/[\n\r]+/g);
   let csv = [];
   let cols = 0;
   for (let line of lines) {
-    let row = line.split(/(?!\B"[^"]*),(?![^"]*"\B)/g);
+    let row = line.split(/,/g);
     let nrow = [];
     for (let el of row) {
-      el = el.replace(/^\n/g, "");
-      el = el.replace(/\n/g, "<br /><br />");
-      nrow.push(el.replace(/"/g, ""));
+      if (el !== "") {
+        if (el in paras) el = paras[el];
+
+        el = el.replace(/^\n/g, "");
+        el = el.replace(/\n/g, "<br /><br />");
+        nrow.push(el);
+      }
     }
     if (nrow.length > cols) cols = nrow.length;
     csv.push(nrow);
