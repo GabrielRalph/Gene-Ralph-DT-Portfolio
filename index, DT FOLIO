@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://arcms.w4v.es/Assets/Supreme/stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id = "portfolio">
+
+    <!-- <div class="footer">
+      <div class = "desc">Student Number</div>
+      <div class = "page-number"></div>
+    </div> -->
+
+
+    <div class = "title-page">
+      <h1>Student Number</h1>
+      <h2>Title of Project</h2>
+    </div>
+
+
+    <h1>IDENTIFICATION AND EXPLORATION OF THE NEED</h1>
+
+    <div class = "section">
+      <h2>Keys</h2>
+      <div class = "col">
+        <h4 class = "key1">Important</h4>
+        <h4 class = "key1">Information</h4>
+      </div>
+    </div>
+
+
+    <div class = "section">
+      <h2>Design Brief</h2>
+      <p class = "text-box">
+        Design Brief
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Identification of the Need</h2>
+      <p class = "text-box">
+        Identification of the Need
+      </p>
+    </div>
+
+    <div class = "section ccgs">
+        <div class = "col">
+          <div class = "row">
+            <img class = "flex-image" src = "http://www.timetoclimb.com/wp-content/uploads/2018/03/Nina-Williams-on-the-Kilter-Board.jpg" />
+            <img class = "flex-image" src = "http://cdn.shopify.com/s/files/1/1554/2851/articles/holds-for-kids_600x.jpg?v=1573838124" />
+          </div>
+          <div class = "row">
+            <img width = "291.6" src = "https://cdn.broadsheet.com.au/cache/8f/8e/8f8eb1475352647b2aa528d73dbf3d63.jpg" />
+            <div class = "p-left p-top">
+              <h2>Current Climbing Gym Setting</h2>
+              <div  class = "text-box">
+                Current Climbing Gym Setting
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "section">
+      <h2>Recreational Activity Impacts on Visually Impaired Individuals</h2>
+      <p class = "text-box">
+        rect act
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Impacts of Limited Sports on Individuals</h2>
+      <p class = "text-box">
+        impacts limit
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Stated Health Benefits from Regular Physical Activity</h2>
+      <p class = "text-box">
+        health ben
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Change of demand over the years through participating organisations from the blindness and low vision sector</h2>
+      <img src="./Resources/Images/demand of change.png" />
+      <p class = "text-box">
+        change demand
+      </p>
+    </div>
+
+    <div class = "section">
+      <h2>Claimed Physical Activity Restrictions</h2>
+      <p class = "text-box">
+        claimed
+      </p>
+    </div>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong1
+      </p>
+    </div>
+
+    <div  class = "section">
+      <h2>Applications of conclusions to MDP</h2>
+      <p class = "text-box">
+        Applications of conclusions to MDP
+      </p>
+    </div>
+
+    <div  class = "section survay">
+      <h2>Survey Analysis</h2>
+      <h3>Conclusions deducted from a survey of 33 visually imapred individuals</h3>
+      <img src="./Resources/Images/chart1.png" />
+      <table name="survay res1"></table>
+      <img src="./Resources/Images/chart2.png" />
+      <table name="survay res2"></table>
+      <img src="./Resources/Images/chart4.png" />
+      <img src="./Resources/Images/chart3.png" />
+      <table name="survay res3"></table>
+      <img src="./Resources/Images/chart5.png" />
+      <img src="./Resources/Images/chart6.png" />
+      <table name="survay res4"></table>
+      <img src="./Resources/Images/chart7.png" />
+      <table name="survay res5"></table>
+    </div>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong2
+      </p>
+    </div>
+
+    <h1>AREAS OF INVESTIGATION</h1>
+    <p class = "text-box note">
+      areas of investigation note
+    </p>
+
+    <table name="aoi t2"></table>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong3
+      </p>
+    </div>
+
+    <h1>CRITERIA TO EVALUATE SUCCESS</h1>
+
+    <p class = "text-box note">
+    Crit note
+    </p>
+
+
+
+
+    <table name="Criteria to evaluate"></table>
+
+
+    <div id = "scroll"  class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong4
+      </p>
+    </div>
+
+
+    <h1>ACTION, TIME & FINANCE PLANS AND THEIR APPLICATION</h1>
+
+    <p class = "text-box note">
+    actionintro
+    </p>
+
+    <img width ="99%" src="./Resources/Images/Finance plan.png" />
+
+    <div class = "section ong">
+      <h2>Finance Plan Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong5
+      </p>
+    </div>
+
+    <img width ="99%"src="./Resources/Images/time and action plan part 1.png" />
+
+    <img width ="99%" src="./Resources/Images/time and action plan part2.2.png" />
+
+    <img width ="99%" src="./Resources/Images/time and action plan part 3.png" />
+
+    <div class = "section ong">
+      <h2>Time and Action Plan Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong6
+      </p>
+    </div>
+
+
+    <h2>PROJECT DEVELOPMENT & REALISATION</h2>
+    <h3>Idea Generation</h3>
+    <img width ="99%" src="./Resources/Images/Bmindmap.png" />
+
+    <div class = "section ong">
+      <h2>Degree of Difference Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong7
+      </p>
+    </div>
+
+
+
+    <div  class = "section">
+      <h2>Exploration of Existing Ideas</h2>
+      <img src="./Resources/Images/kilter.jpg" />
+      <table name="PMI1"></table>
+    </div>
+
+    <div  class = "section">
+      <h2>Existing Idea 2</h2>
+      <img src="./Resources/Images/selfbelay.jpg" />
+      <table name="PMI2"></table>
+    </div>
+
+    <div  class = "section">
+      <h2>Existing idea 3</h2>
+      <img src="./Resources/Images/normalgym.jpg" />
+      <table name="PMI3"></table>
+    </div>
+
+    <div  class = "section">
+      <h2>Existing idea 4</h2>
+      <img src="./Resources/Images/boulder.jpg" />
+      <table name="PMI4"></table>
+    </div>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong8
+      </p>
+    </div>
+
+
+
+    <h1>EVIDENCE OF CREATIVITY</h1>
+    <h2>Initial Sketches</h2>
+
+
+    <div  class = "section">
+      <h2>Design 1</h2>
+      <img src="./Resources/Images/I1.svg" />
+      <table name="PME1"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Design 2</h2>
+      <img width="80%" src="./Resources/Images/I2.svg" />
+      <table name="PME2"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Design 3</h2>
+      <img width="40%" src="./Resources/Images/I3.svg" />
+      <table name="PME3"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Design 4</h2>
+      <img width="40%"src="./Resources/Images/I4.svg" />
+      <table name="PME4"></table>
+    </div>
+
+    <table name="Letstry"></table>
+
+    <div class = "section ong">
+      <h2>Ongoing Evaluation</h2>
+      <p class = "text-box">
+        ong9
+      </p>
+    </div>
+
+
+
+
+    <div  class = "section">
+      <h1>Physical Aspect</h1>
+      <p class = "text-box">
+        N1
+      </p>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Hold 1</h2>
+      <img width="60%"src="./Resources/Images/P1.svg" />
+      <table name="PPMI1"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Hold 2</h2>
+      <img width="60%" src="./Resources/Images/P2.svg" />
+      <table name="PPMI2"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Hold 3</h2>
+      <img width="65%" src="./Resources/Images/P3.svg" />
+      <table name="PPMI3"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Hold 4</h2>
+      <img width="50%"src="./Resources/Images/P4.svg" />
+      <table name="PPMI4"></table>
+    </div>
+
+
+    <div  class = "section">
+      <h2>Hold 5</h2>
+      <img width="60%" src="./Resources/Images/P5.svg" />
+      <table name="PPMI5"></table>
+    </div>
+
+      <img width="70%" src="./Resources/Images/P6.svg" />
+
+      <div class = "section ong">
+        <h2>Ongoing Evaluation</h2>
+        <p class = "text-box">
+          ong10
+        </p>
+      </div>
+
+
+
+      <div  class = "section">
+        <h1>Electronic Housing</h1>
+        <h2>Housing 1</h2>
+        <img width="35%"src="./Resources/Images/H1.svg" />
+        <table name="HPMI1"></table>
+      </div>
+
+
+      <div  class = "section">
+        <h2>Housing 2</h2>
+        <img width="45%" src="./Resources/Images/H2.svg" />
+        <table name="HPMI2"></table>
+      </div>
+
+
+      <div  class = "section">
+        <h2>Housing 3</h2>
+        <img width="45%"src="./Resources/Images/H3.svg" />
+        <table name="HPMI3"></table>
+      </div>
+
+      <img width="70%"src="./Resources/Images/H4.svg" />
+
+
+      <div class = "section ong">
+        <h2>Ongoing Evaluation</h2>
+        <p class = "text-box">
+          ong11
+        </p>
+      </div>
+
+
+      <h1>Electronics</h1>
+        <img width="60%"src="./Resources/Images/C1.svg" />
+        <img width="60%" src="./Resources/Images/C2.svg" />
+        <img width="60%"src="./Resources/Images/C3.svg" />
+        <table name="EPMI1"></table>
+
+        <div class = "section ong">
+          <h2>Ongoing Evaluation</h2>
+          <p class = "text-box">
+            ong12
+          </p>
+        </div>
+
+        <h1>CONSIDERATION OF DESIGN FACTORS RELEVANT TO THE MAJOR DESIGN PROJECT</h1>
+
+
+
+        <table name="Consid"></table>
+
+        <div class = "section ong">
+          <h2>Ongoing Evaluation</h2>
+          <p class = "text-box">
+            ong13
+          </p>
+        </div>
+
+<h1>APPROPRIATE RESEARCH & EXPERIMENTATION OF MATERIALS, TOOLS, TECHNIQUES & TESTING OF DESIGN SOLUTIONS</h1>
+
+
+<h1>IDENTIFICATION & JUSTIFICATION OF IDEAS AND RESOURCES USED</h1>
+
+  <table name="idea"></table>
+
+  <h2>Personal</h2>
+
+  <table name="personal"></table>
+
+  <h2>Tools</h2>
+
+  <table name="Tools"></table>
+
+  <h2>Materials</h2>
+
+  <table name="Materials"></table>
+
+  <h2>Other resources</h2>
+
+  <table name="Other"></table>
+
+  <div class = "section ong">
+    <h2>Ongoing Evaluation</h2>
+    <p class = "text-box">
+      ong14
+    </p>
+  </div>
+
+
+
+
+
+  </div>
+  </body>
+
+  <script type = "module">
+    import {loadTextBoxes, loadTables} from "./importer.js";
+    loadTextBoxes("./Resources/textBoxes/");
+    loadTables("./Resources/Tables/");
+    window.onclick = () => {
+      document.getElementById("scroll").scrollIntoView({
+        // behavior: "smooth",
+        block: "center",
+      });
+    }
+
+  </script>
+
+  <style>
+
+    body{
+      --w: min(297mm, 90vw);
+      width: var(--w);
+      font-size:5mm;
+      font-family: "Supreme LL TT";
+      margin: 5em auto;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+    h1{
+      text-align: center;
+    }
+    h4 {
+      margin: 0;
+      display: inline-block;
+    }
+
+    .key1 {
+      color: green;
+    }
+
+
+    h2 {
+      margin: 0;
+      margin-bottom: calc(var(--w)*0.01);
+
+    }
+
+    .ong {
+      background: #ff980075;
+      padding: 1em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table tr:first-of-type{
+      font-weight: 600;
+    }
+    td {
+      padding: 0.5em;
+      vertical-align: top;
+    }
+    table tr:nth-of-type(n+2) td{
+      border-top: 1px solid black;
+    }
+    tr td:nth-of-type(n+2){
+      border-left: 1px solid black;
+    }
+
+    .survay table {
+      margin-top: 1.5em;
+      margin-bottom: 3em;
+    }
+
+
+    /* tbody tr td:first-of-type{
+      background: yellow;
+    }
+
+    tbody tr td:last-of-type{
+      background: red;
+    }
+
+    thead tr td {
+      background: green;
+    }
+
+    tfoot td {
+      background: orange;
+    } */
+
+    .title-page {
+      padding-bottom: 10em;
+      /* height: var(--w); */
+    }
+
+    .note {
+      font-style: italic;
+      opacity: 0.6;
+      font-size: 0.8em;
+      margin-bottom: 5em;
+    }
+
+    .section {
+      margin-bottom: 2em;
+    }
+
+    .p-left {
+      padding-left: calc(var(--w) * 0.015) ;
+    }
+    .p-top {
+      padding-top: calc(var(--w) * 0.015) ;
+    }
+    .p-bottom {
+      padding-bottom: calc(var(--w) * 0.015) ;
+    }
+    .p-right {
+      padding-left: calc(var(--w) * 0.015) ;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-content: space-between;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      align-content: space-between;
+    }
+
+
+    .ccgs .flex-image{
+      height: 77mm;
+    }
+
+    .cs2 {
+      text-align: center;
+      font-weight: 600;
+    }
+
+
+    .footer {
+    }
+
+    @page {
+      size: A3;
+      margin: 20mm;
+      @bottom-left {
+        content: "hey";
+      }
+    }
+
+    @media print {
+      body {
+        width: 297mm;
+        margin: 0;
+        font-size: 12px;
+      }
+      .section {break-inside: avoid;}
+      table {break-inside: avoid;}
+      .title-page {page-break-after: always;}
+      h1 {page-break-before: always;}
+    }
+
+  </style>
+
+
+</html>
