@@ -46,18 +46,18 @@ function stringToCSVArray(string){
   let cols = 0;
   for (let line of lines) {
     let row = line.split(/,/g);
-    let nrow = [];
-    for (let el of row) {
-      if (el !== "") {
+    if (!(row.length == 1 && row[0].length == 0)) {
+      let nrow = [];
+      for (let el of row) {
         if (el in paras) el = paras[el];
 
         el = el.replace(/^\n/g, "");
         el = el.replace(/\n/g, "<br /><br />");
         nrow.push(el);
       }
+      if (nrow.length > cols) cols = nrow.length;
+      csv.push(nrow);
     }
-    if (nrow.length > cols) cols = nrow.length;
-    csv.push(nrow);
   }
 
   return {csv: csv, cols: cols};
