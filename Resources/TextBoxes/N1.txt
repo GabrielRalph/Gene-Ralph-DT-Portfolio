@@ -1,0 +1,1 @@
+The final design is divided into 3 sections, these sections of separate design include the electronic housing case, the climbing hold and the electronics.

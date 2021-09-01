@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 511.3 613.9" style="enable-background:new 0 0 511.3 613.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:1.0006;stroke-miterlimit:10;}
+	.st6{font-family:'SupremeLL-Regular';}
+	.st7{font-size:17.0079px;}
+	.st8{font-size:11.3386px;}
+</style>
+<rect x="135" y="177.6" class="st0" width="112" height="152"/>
+<rect x="176.5" y="248.1" class="st1" width="53" height="40"/>
+<text transform="matrix(1 0 0 1 176.4783 256.6025)" class="st2 st3">ESP32</text>
+<rect x="139.5" y="183.1" class="st1" width="28" height="12"/>
+<text transform="matrix(1 0 0 1 139.4783 191.6025)" class="st2 st3">Gnd</text>
+<rect x="232.5" y="181.1" class="st1" width="31" height="11"/>
+<text transform="matrix(1 0 0 1 232.4783 189.6025)" class="st2 st3">P1</text>
+<rect x="139.5" y="316.1" class="st1" width="17" height="12"/>
+<text transform="matrix(1 0 0 1 139.4783 324.6025)" class="st2 st3">Vin</text>
+<rect x="232.2" y="318.8" class="st1" width="31" height="11"/>
+<text transform="matrix(1 0 0 1 232.1835 327.3202)" class="st2 st3">P2</text>
+<polyline class="st4" points="247,183.5 291.4,183.1 291.4,148.8 "/>
+<polyline class="st4" points="299,150.6 323.2,150.6 323.2,127.2 386,127.6 "/>
+<circle class="st4" cx="397" cy="127.6" r="11"/>
+<rect x="393.7" y="124.2" class="st1" width="36.4" height="22"/>
+<text transform="matrix(1 0 0 1 393.6785 132.7079)" class="st2 st3">V</text>
+<line class="st4" x1="408" y1="127.6" x2="424.4" y2="127.2"/>
+<line class="st4" x1="424.4" y1="118.1" x2="424.4" y2="135.2"/>
+<line class="st4" x1="428" y1="120.6" x2="428" y2="132.7"/>
+<line class="st4" x1="431" y1="123.2" x2="431" y2="129.1"/>
+<g>
+	<g>
+		<polyline class="st5" points="303.3,163.7 322.8,163.7 322.8,191.7 373.3,191.6 		"/>
+		<g>
+			<polygon points="304.2,166.7 299,163.7 304.2,160.7 			"/>
+		</g>
+	</g>
+</g>
+<line class="st4" x1="373.3" y1="184.2" x2="373.3" y2="198.1"/>
+<rect x="375.9" y="185.7" class="st1" width="22.5" height="10.8"/>
+<text transform="matrix(1 0 0 1 375.868 194.2656)" class="st2 st3">Vin</text>
+<polyline class="st4" points="395.2,191.5 447.5,191.1 448,375.1 96.2,375.1 "/>
+<polyline class="st4" points="135,322.1 97.3,322.1 95,434.1 135,434.1 "/>
+<rect x="135" y="420.6" class="st4" width="102" height="102"/>
+<rect x="139.4" y="428.1" class="st1" width="39" height="16.7"/>
+<text transform="matrix(1 0 0 1 139.4046 436.5707)" class="st2 st3">Vout</text>
+<rect x="212.8" y="428.2" class="st1" width="39" height="16.7"/>
+<text transform="matrix(1 0 0 1 212.8414 436.7696)" class="st2 st3">Gnd</text>
+<line class="st4" x1="237" y1="434.1" x2="254.6" y2="434.1"/>
+<line class="st4" x1="254.6" y1="425.4" x2="254.6" y2="443.2"/>
+<line class="st4" x1="258.4" y1="428.1" x2="258.4" y2="439.1"/>
+<line class="st4" x1="262.5" y1="430.8" x2="262.5" y2="434.3"/>
+<rect x="167.7" y="459.7" class="st1" width="66.7" height="45.5"/>
+<text transform="matrix(1 0 0 1 167.6677 468.2338)"><tspan x="0" y="0" class="st2 st3">Battery </tspan><tspan x="0" y="14.4" class="st2 st3">Control</tspan></text>
+<rect x="138.3" y="510.3" class="st1" width="15.2" height="9.5"/>
+<text transform="matrix(1 0 0 1 138.2678 518.8334)" class="st2 st3">B+</text>
+<rect x="224.6" y="511.9" class="st1" width="15.2" height="9.5"/>
+<text transform="matrix(1 0 0 1 224.6409 520.4149)" class="st2 st3">B-</text>
+<line class="st4" x1="135" y1="185.7" x2="107.6" y2="186.2"/>
+<line class="st4" x1="107.6" y1="172.3" x2="107.6" y2="198.1"/>
+<line class="st4" x1="103.5" y1="177.7" x2="103.5" y2="194.3"/>
+<line class="st4" x1="100" y1="180.6" x2="100" y2="189.1"/>
+<polyline class="st4" points="139.4,522.6 138.3,563.9 168.1,563.9 "/>
+<line class="st4" x1="168.1" y1="546.7" x2="167.5" y2="580"/>
+<line class="st4" x1="176.5" y1="557.8" x2="176.5" y2="567.4"/>
+<line class="st4" x1="186" y1="551.2" x2="186" y2="573.5"/>
+<line class="st4" x1="198" y1="557.6" x2="198" y2="567.4"/>
+<line class="st4" x1="206.4" y1="546.7" x2="206.4" y2="580"/>
+<polyline class="st4" points="206.4,562.4 234.4,562.4 234.4,522.6 "/>
+<line class="st4" x1="247.7" y1="324.3" x2="299" y2="324.3"/>
+<line class="st4" x1="299" y1="146.2" x2="299" y2="153"/>
+<line class="st4" x1="299" y1="159.4" x2="299" y2="166.1"/>
+<line class="st4" x1="322.8" y1="174.6" x2="299" y2="174.6"/>
+<line class="st4" x1="299" y1="172.3" x2="299" y2="177.7"/>
+<rect x="35.3" y="64.6" class="st1" width="468.4" height="44.7"/>
+<text transform="matrix(1 0 0 1 35.3104 77.8665)" class="st6 st7">Open Circuit Board Design, Load Cell Model </text>
+<circle class="st4" cx="311" cy="324" r="12"/>
+<rect x="304.9" y="318.7" class="st1" width="21.1" height="12.6"/>
+<text transform="matrix(1 0 0 1 304.9053 327.2246)" class="st2 st3">LC</text>
+<rect x="325.7" y="319.9" class="st1" width="72.8" height="32.3"/>
+<text transform="matrix(1 0 0 1 325.7266 328.4141)" class="st2 st3">Load Cell </text>
+<rect x="284.8" y="131.4" class="st1" width="48.5" height="14"/>
+<text transform="matrix(1 0 0 1 284.8263 139.943)"><tspan x="0" y="0" class="st2 st8">Mosfet</tspan><tspan x="32.6" y="0" class="st2 st3"> </tspan></text>
+</svg>

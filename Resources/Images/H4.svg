@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 383.3 220.9" style="enable-background:new 0 0 383.3 220.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.7;fill:#F36E26;}
+	.st1{opacity:0.4;fill:#808184;}
+	.st2{fill:#6D6E71;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#414042;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#A7A9AC;}
+	.st5{stroke:#000000;stroke-miterlimit:10;}
+	.st6{fill:none;}
+	.st7{fill:#FFFFFF;}
+	.st8{font-family:'SupremeLL-Black';}
+	.st9{font-size:17.0079px;}
+	.st10{fill:none;stroke:#000000;stroke-width:1.0006;stroke-miterlimit:10;}
+	.st11{font-family:'MyriadPro-Regular';}
+	.st12{font-size:12px;}
+</style>
+<rect x="0" y="0" class="st0" width="383" height="221"/>
+<rect x="7" y="9" class="st1" width="370" height="47"/>
+<g>
+	<polygon class="st2" points="133.6,127.2 138.3,203.6 263.8,157.4 261.9,90.4 	"/>
+	<path class="st3" d="M261.9,90.4c-15.4-15.4-90-29.9-126.4-4.7c-34.8,24.1-1.9,41.5-1.9,41.5L261.9,90.4z"/>
+	<path class="st3" d="M138.3,203.6c0,0-12.3-17-14.2-23.6c-1.9-6.6-4.7-69.8-4.7-69.8s0.9,9.4,14.2,17L138.3,203.6z"/>
+	<path class="st4" d="M263.3,157.3c-14.2-16.3-89.6-29.4-127.4-2.8l-1.9-27.2l127.1-36.5L263.3,157.3z"/>
+	<path class="st5" d="M208.1,105.5c-5.2-0.9-5.6-5.9-2.7-9.7c2.4-3.1,1.3-12.2-7.2-12.2c-8.5,0-12.1,8.8-5.8,15.3
+		c6.7,6.9-1.4,11.5-0.4,11.3L208.1,105.5z"/>
+	<circle class="st3" cx="198.2" cy="91.8" r="5.2"/>
+</g>
+<rect x="15" y="22" class="st6" width="276" height="33"/>
+<text transform="matrix(1 0 0 1 15 35.2324)" class="st7 st8 st9">Final Electronic Housing Design </text>
+<g>
+	<g>
+		<line class="st10" x1="275.5" y1="91" x2="276.5" y2="156"/>
+		<g>
+			<rect x="272.3" y="90.5" transform="matrix(0.9999 -1.515775e-02 1.515775e-02 0.9999 -1.3477 4.1865)" width="6.5" height="1"/>
+		</g>
+		<g>
+			
+				<rect x="273.2" y="155.5" transform="matrix(0.9999 -1.515763e-02 1.515763e-02 0.9999 -2.3328 4.2089)" width="6.5" height="1"/>
+		</g>
+	</g>
+</g>
+<rect x="279.7" y="114.5" class="st6" width="29.3" height="12.5"/>
+<text transform="matrix(1 0 0 1 279.6738 123.0566)" class="st11 st12">3cm</text>
+<g>
+	<g>
+		<line class="st10" x1="141.5" y1="208.8" x2="266.5" y2="164.2"/>
+		<g>
+			<rect x="141" y="205.6" transform="matrix(0.9417 -0.3363 0.3363 0.9417 -61.9957 59.7478)" width="1" height="6.5"/>
+		</g>
+		<g>
+			<rect x="266" y="160.9" transform="matrix(0.9417 -0.3363 0.3363 0.9417 -39.6886 99.2087)" width="1" height="6.5"/>
+		</g>
+	</g>
+</g>
+<rect x="195.3" y="195.9" class="st6" width="35.9" height="11.1"/>
+<text transform="matrix(1 0 0 1 195.2949 204.4033)" class="st11 st12">8cm</text>
+<g>
+	<g>
+		<line class="st10" x1="264" y1="83.3" x2="211" y2="58.7"/>
+		<g>
+			<rect x="260.8" y="82.8" transform="matrix(0.4201 -0.9075 0.9075 0.4201 77.5325 287.9119)" width="6.5" height="1"/>
+		</g>
+		<g>
+			<rect x="207.7" y="58.2" transform="matrix(0.4201 -0.9075 0.9075 0.4201 69.0507 225.4793)" width="6.5" height="1"/>
+		</g>
+	</g>
+</g>
+<rect x="234.8" y="60.5" class="st6" width="22.7" height="13.6"/>
+<text transform="matrix(1 0 0 1 234.7686 68.9932)" class="st11 st12">4cm</text>
+</svg>
