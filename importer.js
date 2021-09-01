@@ -12,6 +12,7 @@ async function getText(url){
 
 async function loadText(textBox, name, folder_name){
   let text = await getText(folder_name + name + ".txt");
+  text = text.replace(/\n/g, "<br />");
   if (text != null) {
     textBox.innerHTML = text;
   } else {
