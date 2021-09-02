@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Design & Technology Portfolio</title>
     <link href="https://arcms.w4v.es/Assets/Supreme/stylesheet.css" rel="stylesheet" />
   </head>
   <body>
@@ -44,9 +44,6 @@
         Identification of the Need
       </p>
     </div>
-
-
-
 
     <div class = "section ccgs">
         <div class = "col">
@@ -166,7 +163,7 @@
     <table name="Criteria to evaluate"></table>
 
 
-    <div id = "scroll"  class = "section ong">
+    <div  class = "section ong">
       <h2>Ongoing Evaluation</h2>
       <p class = "text-box">
         ong4
@@ -434,58 +431,8 @@
   </div>
 
 
-
-  <h1>EVIDENCE & APPLICATION OF PRACTICAL SKILLS TO PRODUCE A QUALITY PROJECT</h1>
-
-
-  <div class = "section">
-    <h2>Carving and Casting Climbing Holds</h2>
-    <p class = "text-box">
-      CCCH
-    </p>
-  </div>
-
-  <table name="ResinModel"></table>
-
-
-  <div class = "section ong">
-    <h2>Ongoing Evaluation</h2>
-    <p class = "text-box">
-      ong15
-    </p>
-  </div>
-
-
-
-
-  <div class = "section">
-    <h2>Formation of Route Algorithm, Procedure, and Explanation</h2>
-    <p class = "text-box">
-      RouteA
-    </p>
-  </div>
-
-  <div class = "section ong">
-    <h2>Ongoing Evaluation</h2>
-    <p class = "text-box">
-      ong16
-    </p>
-  </div>
-
-  <img src="./Resources/Images/E24.jpg" />
-  <img src="./Resources/Images/E25.jpg" />
-
-  <div class = "section">
-    <h2>Coding</h2>
-    <p class = "text-box">
-      Coding
-    </p>
-  </div>
-
-  <table name="CodingTable"></table>
-
-  <h1>USE OF COMMUNICATION & PRESENTATION TECHNIQUES</h1>
-
+  <h1 id = "scroll">RECORDING AND APPLICATION OF EVALUATION PROCEDURES THROUGHOUT THE DESIGN PROJECT</h1>
+  <table class = "eval-sections" name = "eval sections"></table>
 
   </div>
   </body>
@@ -507,6 +454,12 @@
 
     body{
       --w: min(297mm, 90vw);
+      --ong: #ff980075;
+
+      /* Evaluation table */
+      --ong-l: #ff980055;
+      --eval: #1fdb1f4d;
+      --dev-changes: #fd19194a;
       width: var(--w);
       font-size:5mm;
       font-family: "Supreme LL TT";
@@ -536,9 +489,34 @@
     }
 
     .ong {
-      background: #ff980075;
+      background: var(--ong);
       padding: 1em;
     }
+
+    /* RECORDING AND APPLICATION OF EVALUATION PROCEDURES THROUGHOUT THE DESIGN PROJECT
+        table styles
+     */
+
+      table.eval-sections tr:nth-of-type(2n+3) td:first-of-type{
+        background: var(--eval);
+      }
+      table.eval-sections tr:nth-of-type(2n+3) td:last-of-type{
+        background: var(--dev-changes);
+      }
+
+      table.eval-sections tr:nth-of-type(2) td,
+      table.eval-sections tr:nth-of-type(6) td,
+      table.eval-sections tr:nth-of-type(10) td,
+      table.eval-sections tr:nth-of-type(14) td,
+      table.eval-sections tr:nth-of-type(24) td,
+      table.eval-sections tr:nth-of-type(26) td,
+      table.eval-sections tr:nth-of-type(36) td,
+      table.eval-sections tr:nth-of-type(38) td{
+        background: var(--ong);
+      }
+      table.eval-sections tr:nth-of-type(2n+2){
+        background: var(--ong-l);
+      }
 
     table {
       width: 100%;
@@ -564,21 +542,7 @@
     }
 
 
-    /* tbody tr td:first-of-type{
-      background: yellow;
-    }
 
-    tbody tr td:last-of-type{
-      background: red;
-    }
-
-    thead tr td {
-      background: green;
-    }
-
-    tfoot td {
-      background: orange;
-    } */
 
     .title-page {
       padding-bottom: 10em;
