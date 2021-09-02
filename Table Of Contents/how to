@@ -1,0 +1,11 @@
+add this to the head:
+<link href="./Table of Contents/style.css" rel="stylesheet" />
+
+
+add this under the title page:
+<div id = "table-of-contents" class = "title-page"></div>
+
+
+add this to script:
+import {makeContents} from "./Table of Contents/table-of-contents.js";
+makeContents("portfolio", "table-of-contents");
