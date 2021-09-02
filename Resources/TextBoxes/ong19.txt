@@ -1,0 +1,1 @@
+Through experimenting with the climbing route that my holds will use, I was able to visualise and apply algorithms into a practical application. This enabled me to understand and be able to apply the algorithm into effective code.

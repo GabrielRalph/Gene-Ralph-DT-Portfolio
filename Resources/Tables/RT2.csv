@@ -1,0 +1,9 @@
+"Reference, 8",
+Intro,"Climbing holds were marked by tape and each hold had a number that resembled its chronological order in the route, this mimicked the route algorithm of the sound activated climbing holds"
+Aim,To determine if any problems or unfactored issues would arise in the climbing route algorithm when tested in a practical setting
+Method,"Tape each hold numbering them in the order they have been used
+
+Climb the route multiple times observing any issues that may arise"
+Results,"When attempting to re-climb the ordered route i released that certain holds were used more than once, as you would use it as a hand hold and then a foot hold, this problem may hinder the success of the route algorithm, as it puts the order in disarray if a chip is allocated as move 2 and 8"
+Evaluation,Although there was an issue methods to negate it were easily realised
+Applications of conclusions,Through this experimentation the issue was clearly outlined and allowed me to have a greater understanding of the route algorithm making the process of coding it easier and forming a higher quality code.

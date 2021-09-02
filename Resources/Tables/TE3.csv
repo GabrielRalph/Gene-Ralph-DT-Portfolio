@@ -1,0 +1,13 @@
+,"Reference,3, sub experiment to Reference, 4"
+Intro,This experiment was conducted as a sub experiment towards the main capacitive sensor test
+Aim,To determine which washer provided the best results when placed in between the metal washers whilst the difference of readings was displayed via Arduino
+Method,"Place each different washer between the metal washers
+
+Connect wires to the metal washers
+
+Connect the wires to the correct pins on the ESP32 chip
+
+Once the washer is placed in between the metal washers squeeze them together and view the differential in readings shown on the Arduino display screen. Through these differences in readings it establishes whether the hold is being held or not. As one can assume the hold is not being held if the readings stay the same. Additionally when the readings have a large change one can assume someone is applying pressure to a hold or in this case the washers"
+Results,"The small black and white washers were too thin, as they were squished together there was no differential in readings as their capacitors were already maxed. The cone black washer did not have enough elasticity and it was two difficult to squish the washers together, consequently leading to little differential in readings. Although the silicone washers both worked well due to the squishy nature of silicone the larger washer displayed a greater differential in readings, which is better when attempting to assume a notion of held or not held via a code"
+Evaluation,Through evaluating these tests the largest silicone washer is the most suitable washer to be used in the final capacitive sensor experiment.
+<img width='70%' src='./Resources/Images/E5.jpg' />,

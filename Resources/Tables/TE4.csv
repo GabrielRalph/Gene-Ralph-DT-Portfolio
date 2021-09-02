@@ -1,0 +1,17 @@
+"Reference, 4",
+Intro,"Capacitive sensor designed with two metal washers and a silicone washer, when pressure is applied to the hold the washers are pushed closer together condensing the silicone washer in between them and determining that the hold is in use."
+Aim,To determine the best technology to be able to read whether the climbing hold is being applied pressure
+Method,"1. Create a thick washer out of carving foam, cast it in silicone, after the cast is dry apply vaseline to the edges of the cast and poor silicone inside.
+2. Put a metal washer that is the same size as the silicone washer on either side of the silicone washer
+3. Connect wires to bottom and top washer connecting them to the touch pins on an ESP32 chip
+4. Using Arduino to find the touch sensor package, code the capacitor reader, open the display screen which that shows via numbers the readings of the capacitor
+Put the capacitive sensor in a practical setting and view readings"
+Results,"This method was inconsistent and would work sometimes and not others, the base readings that the capacitor would establish when no pressure was applied varied which made it hard to establish a reading that determined the hold not being held. Another problem I faced was in relation to the bolts contact to the capacitors, as the capacitors read the differential in electrons in the metal as the distance between the two metals vary the bolt would affect this reading as it was touching the side of the washers."
+Evaluation,"This method posed difficulties and presented inconsistencies, although through this experiment it allowed me to build a further understanding of capacitive sensors and form new ideas on how to implement the same technology in a more successful fashion."
+Application Of Conclusions,"I am going to experiment with a new capacitive sponsor that I discovered with this experiment. when the bolt was connect to the capacitor the readings did not work although at one point when i moved my hand close the capacitor it would change readings, through this i am going to experiment with a capacitive sensor that works through a copper plate and a hand, this copper plate will be casted inside the resin hold and if successful will read whether the hand or foot is being placed on the hold or not."
+Annotation: image representing the technology,<img src='./Resources/Images/E6.jpg' />
+"Annotation:
+Red light indicates the capacitors having no differential in readings establishing that there is no pressure applied. Purple light indicates a change in readings as the capacitors are pushed closer together establishing pressure is applied","<img src='./Resources/Images/E7.jpg' />
+        <img src='./Resources/Images/E8.jpg' />"
+"Annotations:
+When the capacitors are placed in the bolt it affects the readings and reads a change when no pressure is being applied",<img src='./Resources/Images/E9.jpg' />

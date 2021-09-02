@@ -1,0 +1,28 @@
+"Reference, 5",
+Intro,"Capacitive sensor test, where a copper plate is covered in plastic and the limbs of a human act as the other capacitive source"
+Aim,"To determine the accuracy and reliability and capability of a capacitive sensor separated via a layer of plastic, emulating the copper plate placed inside resign (being the climbing hold)"
+Method,"Cut out a copper plate to fit inside plastic circle
+
+Cut a slit in the copper plate placing the connector wire inbetween the slit clamping it tightly together
+
+Glad Wrap the copper plate until its 5mm thick
+
+Tape copper plate to plastic circle so its tightly attached
+
+Plug the wire into the ESP32 touch port
+
+Open the touch sensor module in arduino and then run it on the ESP32 chip
+
+Open serial monitor and observe the readings while touching the plastic
+
+Once it has been observed and photographs cut copper plate in half and conduct the same test observing the difference in results due to size change"
+Results,"This experiment portrayed clear, accurate and reliable results, as i would touch the plastic the serial monitor readings would clearly change even when i would place my foot on the plastic with shoes on. Although when i made the plate smaller the differential between readings when touched and not touched were not as large, indicating that the larger the plate the better, possibly because of the bigger plate holding a larger level on electrons creating a greater change when the hand is touching the plastic"
+Evaluation,Evaluating that this method of capacitive sensing is consistent and accurate in determining whether the climbing hold is being held or stood on.
+Applications of Conclusion,"Due to the success this experiment displayed, i will apply this design into a resign cast of a climbing hold, being a final evaluation of the capacitive sensor"
+"Annotation:
+Copper plate covered in glad-wrap and a 5mm layer of plastic connected to an ESP32 chip and arduino program to monitor the readings.
+Readings: average of 83 when the plastic was not touched. Average of 73.5 when plastic was touched","  <img src='./Resources/Images/E10.png' />
+        <img src=' /Resources/Images/E11.png' />
+      "
+"Annotations: larger copper plate used to determine in size forms a better reading
+Readings: 78 when not touched. Average of 64 when touched",  <img src='./Resources/Images/E12.png' />

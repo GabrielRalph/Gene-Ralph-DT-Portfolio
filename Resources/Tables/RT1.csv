@@ -1,0 +1,12 @@
+"Reference, 7",
+Intro,The route taken to complete the rock climb with black holds were marked and digitised using two different methods. One in chronological order of movement and the other marking each of the limbs movement. Additionally this test was conducted on a extremely complex climb to ensure my testing outlined and evaluated a route algorithm that would work on even the complex of climbing routes
+Aim,To determine the most efficient route algorithm the ESP chips should use to indicate the movement of the climber
+Method,"Climb a difficult climbing route whilst recording the route
+
+Take screenshots every time there is a move made
+
+Use adobe illustrator to digitise the movements using the two different methods stated"
+Results,"Through this investigation it was clear that following each limb separately did not have a clear route that could be programmed into an algorithm. This method of determining the climbers movement was even difficult to understand when visualised, allowing me to evaluate that it would not be a successful algorithm to code. Digitising the movements in chronological order clearly outlined its efficiency and ability to succeed in an algorithm. This was as the drawing followed a clear path, and through ordering each movement you could clearly describe the climb to someone even through communication. To elaborate, you could say first your foot starts there, second your hand goes there and so on. This would enable me to form a code that would be implemented in my design, allowing my climbing holds to buzz and indicate the correct climbing hold, and establish a clear route for the climber to take"
+Evaluation,Through this investigation it was outlined that using chronological order to determine the climbers movement was a clear method that would work efficiently in an algorithm
+Applications of conclusions,Due to the success of the experiment I will be using chronological order to determine the algorithm the ESP chips will use when indicating the climbers route
+  <img width='35%'src='./Resources/Images/E24.jpg' />        <img width='35%'src='./Resources/Images/E25.jpg' />,
